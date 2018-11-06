@@ -1,0 +1,25 @@
+<template>
+  <div class="home">
+    <Hello/>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import Hello from "@/components/HelloWorld.vue";
+
+export default {
+  name: "home",
+  data(){
+    return {
+      
+    }
+  },
+  components: {
+    Hello
+  },
+  methods: {
+    
+  }
+};
+</script>
